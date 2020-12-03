@@ -7,13 +7,13 @@ import {
   PAUSE,
   PERSIST,
   PURGE,
-} from 'redux-persist';
-import storage from 'redux-persist/lib/storage';
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
-import reducer from './reducers';
+} from "redux-persist";
+import storage from "redux-persist/lib/storage";
+import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import reducer from "./reducers";
 
 const persistConfig = {
-  key: 'root',
+  key: "root",
   storage,
 };
 
